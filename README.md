@@ -23,6 +23,6 @@
     <td><img src="images/4rth.png" width=270 height=480></td>
     <td><img src="images/5th.png" width=270 height=480></td>
     <td><img src="images/6th.png" width=270 height=480></td>
-    <td><img src="images/2ndd.png" width=270 height=480></td>
+   <td><img src="images/2nd.png" width=270 height=480></td>
   </tr>
  </table>
