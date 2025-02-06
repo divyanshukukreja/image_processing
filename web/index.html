@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flutter Web App</title>
+    <style>
+      /* Styles for the image container */
+      .image-container {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1000;
+        display: none; /* Initially hidden */
+      }
+
+      .image-container img {
+        max-width: 90vw;
+        max-height: 90vh;
+        border-radius: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Flutter app will be injected here -->
+    <script src="main.dart.js" type="application/javascript"></script>
+
+    <!-- Image container -->
+    <div id="image-container" class="image-container"></div>
+  </body>
+</html>
